@@ -1,0 +1,8 @@
+torch>=2.4
+numpy
+pandas
+matplotlib
+yfinance
+requests
+statsmodels
+chronos-forecasting
