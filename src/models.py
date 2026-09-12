@@ -1,8 +1,7 @@
 """
 時系列予測モデル群(DLinear / TSMixer / PatchTST / TimeMixer)。
 
-出典: I:\\マイドライブ\\Claude2\\output\\2609\\02-014-DLinear-TSMixer-PatchTST比較
-での実験(USD/JPY等の金融時系列、1期先・N期先予測)で使用した実装を
+USD/JPY等の金融時系列、1期先・N期先予測での実験で使用した実装を
 再利用可能な形に整理したもの。
 
 いずれも入力 (batch, lookback) の単変量系列を受け取り、(batch,) の

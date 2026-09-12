@@ -8,8 +8,7 @@ Naive + DLinear/TSMixer/PatchTST/TimeMixer を学習・評価する。
     python run_comparison.py --ticker JPY=X --horizon 20 --lookback 30
     python run_comparison.py --ticker BTC-USD --horizon 1 --models dlinear,patchtst
 
-元になった実験: I:\\マイドライブ\\Claude2\\output\\2609\\02-014-DLinear-TSMixer-PatchTST比較
-(08_multihorizon.py, 11_multi_asset_horizon20.py 等を汎用化したもの)
+元になった実験の08_multihorizon.py, 11_multi_asset_horizon20.py 等を汎用化したもの。
 """
 import argparse
 import json

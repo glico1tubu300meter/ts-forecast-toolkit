@@ -2,11 +2,7 @@
 
 金融時系列(為替・株価指数・暗号資産)の1期先/N期先予測手法を比較するための再利用可能なツールキット。
 
-USD/JPY等を対象に「Naive・DLinear・TSMixer・PatchTST・TimeMixer・Chronos(ゼロショット基盤モデル)・ニュースセンチメント併用」を横断比較した実験(2026年8-9月)から、再利用できる部分をライブラリ化したもの。詳細な実験ログ・グラフ・考察の全文は元セッションを参照:
-
-- [I:\マイドライブ\Claude2\output\2608\24-018-為替時系列予測実験\README.md](../../../マイドライブ/Claude2/output/2608/24-018-為替時系列予測実験/README.md)(Naive/ARIMA/Transformer比較、出発点)
-- `I:\マイドライブ\Claude2\output\2609\02-014-DLinear-TSMixer-PatchTST比較\README.md`(本ツールキットの元になった全実験)
-- `I:\マイドライブ\Claude2\output\2609\02-014-DLinear-TSMixer-PatchTST比較\手法解説_DLinear_PatchTST.md`(DLinear/PatchTSTの手法解説)
+USD/JPY等を対象に「Naive・DLinear・TSMixer・PatchTST・TimeMixer・Chronos(ゼロショット基盤モデル)・ニュースセンチメント併用」を横断比較した実験(2026年8-9月)から、再利用できる部分をライブラリ化したもの。
 
 ## これまでの実験の要約
 
