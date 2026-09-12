@@ -4,6 +4,10 @@
 
 USD/JPY等を対象に「Naive・DLinear・TSMixer・PatchTST・TimeMixer・Chronos(ゼロショット基盤モデル)・ニュースセンチメント併用」を横断比較した実験(2026年8-9月)から、再利用できる部分をライブラリ化したもの。
 
+![USD/JPY 1ヶ月先予測の比較](assets/pred_horizon_20d.png)
+
+*USD/JPY・20営業日(約1ヶ月)先予測の比較例。ホライズンが伸びるほどPatchTSTがNaiveより優位になる傾向を確認。*
+
 ## これまでの実験の要約
 
 ### 1. 基本セットアップ
