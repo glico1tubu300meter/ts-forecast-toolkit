@@ -4,6 +4,10 @@
 
 USD/JPY等を対象に「Naive・DLinear・TSMixer・PatchTST・TimeMixer・Chronos(ゼロショット基盤モデル)・ニュースセンチメント併用」を横断比較した実験(2026年8-9月)から、再利用できる部分をライブラリ化したもの。
 
+![手法比較ヒートマップ](assets/method_comparison_heatmap.png)
+
+*5資産(USD/JPY, EUR/USD, S&P500, 日経225, BTC/USD) × 2ホライズン(1日/20日)でのNaive比スキルスコア。短期(1日)ではほぼ全滅、長期(20日)ではDLinear/PatchTSTがボラティリティの低い資産(株価指数・USD/JPY)でNaiveを上回る一方、TSMixerは一貫して劣り、BTC/USDは20日先でも改善しない。*
+
 ![USD/JPY 1ヶ月先予測の比較](assets/pred_horizon_20d.png)
 
 *USD/JPY・20営業日(約1ヶ月)先予測の比較例。ホライズンが伸びるほどPatchTSTがNaiveより優位になる傾向を確認。*
